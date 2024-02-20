@@ -10,10 +10,11 @@ section{
 }
 
 #header{
-    padding-top: 3%;
+    padding-top: 3.4%;
     text-align: center;
     background-image: url(./bg-header-desktop.png);
     padding-bottom: 3%;
+    padding: 0px 0px ;
 }
 
 p{
@@ -100,7 +101,7 @@ p{
 
 #footer{
     background-color: hsl(201, 11%, 66%);
-    padding: 0;
+    padding: 0px 0px;
 }
 
 footer{
@@ -137,7 +138,12 @@ footer{
   padding-right: 50px;
 }
 
-@media (max-width: 350px){
+@media (max-width: 375px){
+
+#header{
+    padding-top: 3.4%;
+}
+
     body{
         display: block !important;
     }
@@ -146,6 +152,7 @@ footer{
         width: 90% !important;
         float: none !important;
         margin: 0% !important;
+        padding-left: 4.5%;
     }
 
     .all{
@@ -193,7 +200,7 @@ footer{
     }
 
     .logo{
-        padding-left: 186px;
+        padding-left: 160px;
         margin-bottom: 10px;
     }
 }
