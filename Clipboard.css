@@ -10,12 +10,14 @@ section{
 }
 
 #header{
-    padding-top: 3.4%;
+    padding-top: 3.4% !important;
     text-align: center;
     background-image: url(./bg-header-desktop.png);
     padding-bottom: 3%;
     padding: 0px 0px ;
 }
+
+
 
 p{
     padding: 0px 30px;
@@ -23,7 +25,8 @@ p{
 }
 
 #header2{
-    padding: 0px 50px;
+    padding: 0px 80px;
+    padding-top: 3%;
     text-align: center;
 }
 
@@ -140,8 +143,8 @@ footer{
 
 @media (max-width: 375px){
 
-#header{
-    padding-top: 3.4%;
+#header>img{
+    padding-top: 3% !important;
 }
 
     body{
@@ -179,6 +182,10 @@ footer{
         width: 90% !important;
         margin-bottom: 2% !important;
 
+    }
+
+    #header2>p{
+        padding: 0% !important;
     }
 
     .container-foot{
