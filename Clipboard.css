@@ -5,6 +5,11 @@ body{
     margin: 0;
 }
 
+.header{
+    max-width: 1400px;
+    margin: 0px auto;
+}
+
 section{
     padding: 4% 0px;
 }
@@ -15,6 +20,7 @@ section{
     background-image: url(./bg-header-desktop.png);
     padding-bottom: 3%;
     padding: 0px 0px ;
+    background-repeat: no-repeat;
 }
 
 
@@ -67,44 +73,41 @@ p{
 
 }
 
-    .button1 {
-        border: none;
-        padding: 10px 30px;
-        transition-duration: 0.4s;
-        background-color: hsl(171, 66%, 44%);
-        border-radius: 30%;
-        margin-top: 2%;
-        box-shadow: 0 18px 16px hsl(0, 6%, 93%);
-        font-weight: 700;
-        text-align: center;
-        margin-right: 1%;
-      }
-      
-      .button1:hover {
-        background-color: green; 
-        color: white;
-
-    }
-
-
-.button2{
+.button {
     border: none;
     padding: 10px 30px;
     transition-duration: 0.4s;
-    background-color: hsl(233, 100%, 69%);
     border-radius: 30%;
     margin-top: 2%;
-    box-shadow: 0 18px 18px hsl(0, 6%, 93%);
     font-weight: 700;
-}
-.button2:hover{
-    background-color: blue;
-    color: white;
-}
+    text-align: center;
+    box-shadow: 0 18px 16px hsl(0, 6%, 93%);
+  }
 
-#footer{
+  .button2{
+    background-color: hsl(233, 100%, 69%);
+  }
+  .button2:hover{
+    background-color: blue;
+    margin-left: 10px;
+  }
+
+  .button1{
+    background-color:hsl(171, 66%, 44%) ;
+  }
+  .button1:hover{
+    background-color: green;
+    margin-right: 10px;
+  }
+
+  .button1,.button2{
+    color: white;
+  }
+
+footer{
     background-color: hsl(201, 11%, 66%);
     padding-bottom: 1%;
+    padding-top: 3%;
 }
 
 .container-foot{
@@ -201,6 +204,14 @@ section#header2>p{
 
     section#header2>p{
         padding: 0px 30px;
+    }
+
+    .button:hover{
+        margin: 0px 10px;
+    }
+
+    footer{
+        padding: 10px 10px;
     }
 }
 
