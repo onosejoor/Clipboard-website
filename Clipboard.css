@@ -131,7 +131,11 @@ p{
     padding-left: 3%;
 }
 
-@media (max-width: 375px){
+section#header2>p{
+    padding: 0px 200px;
+}
+
+@media (max-width: 500px) and (min-width:300px) {
 
 #header>img{
     padding-top: 3% !important;
@@ -194,4 +198,9 @@ p{
         padding-left: 41%;
         margin: 3%;
     }
+
+    section#header2>p{
+        padding: 0px 30px;
+    }
 }
+
