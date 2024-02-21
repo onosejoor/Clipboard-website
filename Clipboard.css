@@ -132,10 +132,10 @@ p{
 }
 
 section#header2>p{
-    padding: 0px 200px;
+    padding: 0px 100px;
 }
 
-@media (max-width: 500px) and (min-width:300px) {
+@media (max-width: 500px) {
 
 #header>img{
     padding-top: 3% !important;
