@@ -104,28 +104,22 @@ p{
 
 #footer{
     background-color: hsl(201, 11%, 66%);
-    padding: 0px 0px;
-}
-
-footer{
-    display: flex;
-    justify-content: center;
-    padding-top: 40px;
+    padding-bottom: 1%;
 }
 
 .container-foot{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr ;
-    grid-template-rows: 1fr 1fr;
-    justify-content: end;
     gap: 20px 30px;
     width: 60%;
+    padding-left: 7%;
 }
 
 .svg{
     display: flex;
     justify-content: right;
     gap: 20px;
+    padding-right: 2%;
 }
 
 .attribution{
@@ -133,12 +127,8 @@ footer{
 }
 
 .logo{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding-right: 50px;
-    padding-left: 50px;
-  padding-right: 50px;
+    float: left;
+    padding-left: 3%;
 }
 
 @media (max-width: 375px){
@@ -172,11 +162,6 @@ footer{
         margin-bottom: 3%;
     }
 
-    footer{
-        display: block !important;
-        justify-content: center;
-        text-align: center !important;
-    }
 
     button{
         width: 90% !important;
@@ -189,11 +174,10 @@ footer{
     }
 
     .container-foot{
-        width: 100% !important;
-        display: flex;
-        justify-content: center;
-        padding-bottom: 4%;
-    
+        width: 90%;
+        display: grid !important;
+        padding-bottom: 2%;
+        grid-template-columns: 1fr;
     }
 
     .svg{
@@ -207,7 +191,7 @@ footer{
     }
 
     .logo{
-        padding-left: 160px;
-        margin-bottom: 10px;
+        padding-left: 41%;
+        margin: 3%;
     }
 }
